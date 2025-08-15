@@ -1,0 +1,152 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a202c;
+    line-height: 1.6;
+}
+
+.container .header {
+    background: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.container .back-btn {
+    background: none;
+    border: none;
+    color: #1e40af;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.container .back-btn:hover {
+    background: rgba(30, 64, 175, 0.1);
+}
+
+.container .profile-header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.container .profile-picture-section {
+    margin-bottom: 1rem;
+}
+
+.container .add-picture-text {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.container .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #1e40af;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.container .profile-icon {
+    width: 80px;
+    height: 80px;
+    background: #1e40af;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.container .profile-icon::after {
+    content: '👤';
+}
+
+.container .edit-profile-text {
+    color: #1e40af;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.container .form-container {
+    padding: 0 1.5rem 2rem;
+}
+
+.container .form-section {
+    margin-bottom: 2rem;
+}
+
+.container .section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.container .form-group {
+    margin-bottom: 1rem;
+}
+
+.container .form-input {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f1f5f9;
+    color: #64748b;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.container .form-input:focus {
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 2px #1e40af;
+    color: #1a202c;
+}
+
+.container .form-input::placeholder {
+    color: #94a3b8;
+}
+
+.container .input-with-icon {
+    position: relative;
+}
+
+.container .input-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1e40af;
+    font-size: 1.2rem;
+    pointer-events: none;
+}
+
+.container .license-category-hint {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
